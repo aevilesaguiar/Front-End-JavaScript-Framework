@@ -27,17 +27,36 @@ git config --list
   git status
   
   adicionar o arquivo a área de preparação do repositótio git, ou seja adicionar na área de teste
+  Para adicionar arquivos à área de teste do seu repositório Git, digite:
   git add .
   
-  submeter o estado atual de nossas ppastas em nosso repositório git. Ou seja será enviado ao repositório git
+  submeter o estado atual de nossas ppastas em nosso repositório git. Ou seja será enviado ao repositório git.
+  Para confirmar a área de teste atual no seu repositório Git, digite:
   git commit -m "first commit"
   
   mostra o log de todos os commits colocados no meu repositório de dados.
+  Para verificar o log dos commits no seu repositório Git, digite
   git log --oneline
   
+  
+  ## Fazendo check-out de um arquivo de um commit anterior
+  
   para verificar o arquivo de um commit anterior ou do commit atual e depois trabalhar com esse arquivo.
+  Para verificar o index.html do segundo commit, encontre o número do segundo commit usando o git log e digite o seguinte no prompt:
   
   git log -oneline (veja um breve log de commits 
   
  git checkout <codigo de controle 900cfcf> <nome arquivo exemplo index.html>
+  
+ 
+Redefinindo o repositório Git
+  
+  git reset HEAD index.html
+  
+  Em seguida, digite o seguinte no prompt:
+  
+git checkout -- index.html
+  
+  Você também pode usar git reset para redefinir a área de teste para o último commit sem perturbar o diretório de trabalho.
+  
   
