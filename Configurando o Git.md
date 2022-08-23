@@ -60,3 +60,12 @@ git checkout -- index.html
   Você também pode usar git reset para redefinir a área de teste para o último commit sem perturbar o diretório de trabalho.
   
   
+  ## Repositórios Git Online
+  
+  Os repositórios Git Online permitem armazenar uma cópia do seu repositório Git Online. E pode ser facilmente compartilhado entre vários computadores e vários usuários.
+  
+  Breve nção sobre github e bitbucket.
+  
+  
+  
+  
