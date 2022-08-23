@@ -64,7 +64,15 @@ git checkout -- index.html
   
   Os repositórios Git Online permitem armazenar uma cópia do seu repositório Git Online. E pode ser facilmente compartilhado entre vários computadores e vários usuários.
   
-  Breve nção sobre github e bitbucket.
+  Breve noção sobre github e bitbucket.
+  
+  adicionando o repositorio local ao remoto:
+  
+  git remote add origin https://Aeviles@bitbucket.org/aeviles/git-test.git
+  
+  enviar o meu conteudo ao repositorio online
+  
+  git push -u origin master
   
   
   
