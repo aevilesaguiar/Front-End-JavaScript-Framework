@@ -35,4 +35,9 @@ git config --list
   mostra o log de todos os commits colocados no meu repositório de dados.
   git log --oneline
   
+  para verificar o arquivo de um commit anterior ou do commit atual e depois trabalhar com esse arquivo.
+  
+  git log -oneline (veja um breve log de commits 
+  
+ git checkout <codigo de controle 900cfcf> <nome arquivo exemplo index.html>
   
